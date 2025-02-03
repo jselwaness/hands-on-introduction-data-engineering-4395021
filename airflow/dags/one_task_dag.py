@@ -21,5 +21,6 @@ with DAG(
     
     task1 = BashOperator(
         task_id = 'one_task',
-        bash_command='echo "hello, linkedin learning!" > /workspaces/hands-on-introduction-data-engineering-4395021/'
+        bash_command='echo "hello, linkedin learning!" > /workspaces/hands-on-introduction-data-engineering-4395021/lab/temp/create-this-file.txt',
+        dag=dag
     )
