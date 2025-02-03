@@ -9,7 +9,7 @@ default_args = {
         'email_on_retry': True,
         'retries': 0,
         'catchup': False,
-        'startdate': datetime(2023,1,1)
+        'start_date': datetime(2023,1,1)
 }
 
 with DAG(
