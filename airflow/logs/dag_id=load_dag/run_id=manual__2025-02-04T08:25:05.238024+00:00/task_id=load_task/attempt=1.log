@@ -1,0 +1,16 @@
+[2025-02-04T08:25:07.226+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: load_dag.load_task manual__2025-02-04T08:25:05.238024+00:00 [queued]>
+[2025-02-04T08:25:07.230+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: load_dag.load_task manual__2025-02-04T08:25:05.238024+00:00 [queued]>
+[2025-02-04T08:25:07.230+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2025-02-04T08:25:07.240+0000] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): load_task> on 2025-02-04 08:25:05.238024+00:00
+[2025-02-04T08:25:07.243+0000] {standard_task_runner.py:57} INFO - Started process 30667 to run task
+[2025-02-04T08:25:07.245+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'load_dag', 'load_task', 'manual__2025-02-04T08:25:05.238024+00:00', '--job-id', '17', '--raw', '--subdir', 'DAGS_FOLDER/load_dag.py', '--cfg-path', '/tmp/tmpj4df338k']
+[2025-02-04T08:25:07.245+0000] {standard_task_runner.py:85} INFO - Job 17: Subtask load_task
+[2025-02-04T08:25:07.268+0000] {task_command.py:410} INFO - Running <TaskInstance: load_dag.load_task manual__2025-02-04T08:25:05.238024+00:00 [running]> on host codespaces-039a13
+[2025-02-04T08:25:07.303+0000] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='load_dag' AIRFLOW_CTX_TASK_ID='load_task' AIRFLOW_CTX_EXECUTION_DATE='2025-02-04T08:25:05.238024+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-04T08:25:05.238024+00:00'
+[2025-02-04T08:25:07.304+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-02-04T08:25:07.304+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo -e ".separator ","\n.import --skip 1 /workspaces/hands-on-introduction-data-engineering-4395021/lab/orchestrated/airflow-transform-data.csv top_level_domains" | sqlite3 /workspaces/hands-on-introduction-data-engineering-4395021/lab/orchestrated/airflow-load-db.db']
+[2025-02-04T08:25:07.310+0000] {subprocess.py:86} INFO - Output:
+[2025-02-04T08:25:07.317+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-02-04T08:25:07.329+0000] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=load_dag, task_id=load_task, execution_date=20250204T082505, start_date=20250204T082507, end_date=20250204T082507
+[2025-02-04T08:25:07.376+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-02-04T08:25:07.385+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

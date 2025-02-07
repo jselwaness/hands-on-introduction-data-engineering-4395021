@@ -1,0 +1,98 @@
+2025-02-03 11:50:10,288 INFO - Starting the scheduler
+2025-02-03 11:50:10,288 INFO - Processing each file at most -1 times
+2025-02-03 11:50:10,293 INFO - Launched DagFileProcessorManager with pid: 36854
+2025-02-03 11:50:10,295 INFO - Resetting orphaned tasks for active dag runs
+2025-02-03 11:50:10,298 INFO - Configured default timezone Timezone('UTC')
+2025-02-03 11:50:20,674 WARNING - The Authorization header is missing: Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:135.0) Gecko/20100101 Firefox/135.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US, en; q=0.5
+Referer: https://github.com/
+X-Request-Id: b5bffddceeb772bff7f0e5057feac289
+X-Real-Ip: 10.240.3.196
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Dnt: 1
+Sec-Gpc: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: cross-site
+Priority: u=0, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: fictional-giggle-5947q9pw7r42v66g-8793.app.github.dev
+X-Forwarded-For: 10.240.3.64
+Proxy-Connection: Keep-Alive
+
+.
+2025-02-03 11:50:20,675 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/home/vscode/.local/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2025-02-03 11:50:21,165 WARNING - The Authorization header is missing: Accept: image/avif, image/webp, image/png, image/svg+xml, image/*; q=0.8, */*; q=0.5
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:135.0) Gecko/20100101 Firefox/135.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US, en; q=0.5
+Referer: https://fictional-giggle-5947q9pw7r42v66g-8793.app.github.dev/
+X-Request-Id: 991c081e572e42d81a06ca4f75d32fd3
+X-Real-Ip: 10.240.4.161
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Dnt: 1
+Sec-Gpc: 1
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+Priority: u=6
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: fictional-giggle-5947q9pw7r42v66g-8793.app.github.dev
+X-Forwarded-For: 10.240.3.64
+Proxy-Connection: Keep-Alive
+
+.
+2025-02-03 11:50:21,166 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/home/vscode/.local/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2025-02-03 11:55:10,485 INFO - Resetting orphaned tasks for active dag runs
+2025-02-03 12:00:10,650 INFO - Resetting orphaned tasks for active dag runs
+2025-02-03 12:05:10,725 INFO - Resetting orphaned tasks for active dag runs
+2025-02-03 12:10:04,750 INFO - Exiting gracefully upon receiving signal 15
+2025-02-03 12:10:05,753 INFO - Sending Signals.SIGTERM to group 36854. PIDs of all processes in the group: [36854]
+2025-02-03 12:10:05,753 INFO - Sending the signal Signals.SIGTERM to group 36854
+2025-02-03 12:10:05,926 INFO - Process psutil.Process(pid=36854, status='terminated', exitcode=0, started='11:50:09') (36854) terminated with exit code 0
+2025-02-03 12:10:05,928 INFO - Sending Signals.SIGTERM to group 36854. PIDs of all processes in the group: []
+2025-02-03 12:10:05,928 INFO - Sending the signal Signals.SIGTERM to group 36854
+2025-02-03 12:10:05,928 INFO - Sending the signal Signals.SIGTERM to process 36854 as process group is missing.
+2025-02-03 12:10:05,928 INFO - Exited execute loop
+2025-02-03 13:32:27,270 INFO - Starting the scheduler
+2025-02-03 13:32:27,271 INFO - Processing each file at most -1 times
+2025-02-03 13:32:27,276 INFO - Launched DagFileProcessorManager with pid: 16139
+2025-02-03 13:32:27,278 INFO - Resetting orphaned tasks for active dag runs
+2025-02-03 13:32:27,280 INFO - Configured default timezone Timezone('UTC')
+2025-02-03 13:37:27,347 INFO - Resetting orphaned tasks for active dag runs
+2025-02-03 13:42:27,386 INFO - Resetting orphaned tasks for active dag runs
+2025-02-03 13:47:27,423 INFO - Resetting orphaned tasks for active dag runs
+2025-02-03 13:52:27,462 INFO - Resetting orphaned tasks for active dag runs
+2025-02-03 13:57:27,500 INFO - Resetting orphaned tasks for active dag runs
+2025-02-03 14:02:27,538 INFO - Resetting orphaned tasks for active dag runs
+2025-02-03 14:07:27,575 INFO - Resetting orphaned tasks for active dag runs
+2025-02-03 14:12:27,612 INFO - Resetting orphaned tasks for active dag runs
+2025-02-03 14:17:27,650 INFO - Resetting orphaned tasks for active dag runs
